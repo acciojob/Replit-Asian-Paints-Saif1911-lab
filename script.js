@@ -8,7 +8,7 @@ changeBtn.addEventListener('click', () => {
 	blockEle.style.backgroundColor = color;
 })
 
-const resetBtn = document.getElementById('Reset');
+const resetBtn = document.getElementById('reset');
 
 resetBtn.addEventListener('click', () => {
 	const blocks = document.querySelectorAll('.grid-item');
